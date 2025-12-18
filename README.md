@@ -1,7 +1,7 @@
 # Postgres-Audit
 
 ## 🚀 Overview
-postgres-audit is a Python-based tool designed to audit PostgreSQL logs and generate comprehensive reports. It automates the process of extracting, processing, and reporting on PostgreSQL audit logs, making it easier to monitor and maintain your database systems.
+The `postgres-audit` is a Python-based tool designed to audit PostgreSQL logs and generate comprehensive reports. It automates the process of extracting, processing, and reporting on PostgreSQL audit logs, making it easier to monitor and maintain your database systems.
 
 ## ✨ Features
 - **Automated ETL**: Automatically processes PostgreSQL audit logs.
@@ -37,11 +37,6 @@ cd postgres-audit
 python main.py --auto
 ```
 
-## 🔧 Configuration
-- **Environment Variables**: Set up your database and SSH credentials in the `.env` file.
-- **SQL Scripts**: Customize the SQL scripts in the `dependencies/sql` directory to fit your specific needs.
-- **Email Notifications**: Configure the SMTP settings in the `.env` file to send email notifications.
-  
 ## 🎯 Usage
 
 ### Basic Usage
@@ -79,3 +74,8 @@ postgres-audit/
 ├── requirements.txt
 └── README.md
 ```
+
+## 🔧 Configuration
+- **Environment Variables**: Set up your database and SSH credentials in the `.env` file.
+- **Email Notifications**: Configure the SMTP settings in the `.env` file to send email notifications.
+- **SQL Scripts**: Customize the SQL scripts in the `dependencies/sql` directory to fit your specific needs.
